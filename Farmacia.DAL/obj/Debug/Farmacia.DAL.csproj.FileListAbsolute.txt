@@ -1,0 +1,4 @@
+C:\Users\family\Desktop\Bios\Final\Farmacia\Farmacia.DAL\bin\Debug\Farmacia.DAL.dll
+C:\Users\family\Desktop\Bios\Final\Farmacia\Farmacia.DAL\bin\Debug\Farmacia.DAL.pdb
+C:\Users\family\Desktop\Bios\Final\Farmacia\Farmacia.DAL\obj\Debug\Farmacia.DAL.dll
+C:\Users\family\Desktop\Bios\Final\Farmacia\Farmacia.DAL\obj\Debug\Farmacia.DAL.pdb

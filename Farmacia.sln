@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farmacia", "Farmacia\Farmacia.csproj", "{A623A8E2-1CF6-4F8A-BFC6-49A4F54D2578}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farmacia.BLL", "Farmacia.BLL\Farmacia.BLL.csproj", "{EB5828BC-F020-4720-ADDE-DBF07D488810}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farmacia.DAL", "Farmacia.DAL\Farmacia.DAL.csproj", "{264B1C62-5ED2-4CE0-9D54-8DD6AF14EA16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farmacia.UI", "Farmacia.UI\Farmacia.UI.csproj", "{82B9712B-C5E9-4693-9B4F-B8ED49DF7BB1}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Sitio", "Sitio\", "{B0F6B8B9-CA36-4395-A88E-6205C174225A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		ProjectReferences = "{eb5828bc-f020-4720-adde-dbf07d488810}|Farmacia.BLL.dll;{264B1C62-5ED2-4CE0-9D54-8DD6AF14EA16}|Farmacia.DAL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52948"
+		Debug.AspNetCompiler.PhysicalPath = "Sitio\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52948\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52948"
+		Release.AspNetCompiler.PhysicalPath = "Sitio\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52948\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52948"
+		SlnRelativePath = "Sitio\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A623A8E2-1CF6-4F8A-BFC6-49A4F54D2578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A623A8E2-1CF6-4F8A-BFC6-49A4F54D2578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A623A8E2-1CF6-4F8A-BFC6-49A4F54D2578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A623A8E2-1CF6-4F8A-BFC6-49A4F54D2578}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB5828BC-F020-4720-ADDE-DBF07D488810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB5828BC-F020-4720-ADDE-DBF07D488810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB5828BC-F020-4720-ADDE-DBF07D488810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB5828BC-F020-4720-ADDE-DBF07D488810}.Release|Any CPU.Build.0 = Release|Any CPU
+		{264B1C62-5ED2-4CE0-9D54-8DD6AF14EA16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{264B1C62-5ED2-4CE0-9D54-8DD6AF14EA16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{264B1C62-5ED2-4CE0-9D54-8DD6AF14EA16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{264B1C62-5ED2-4CE0-9D54-8DD6AF14EA16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82B9712B-C5E9-4693-9B4F-B8ED49DF7BB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82B9712B-C5E9-4693-9B4F-B8ED49DF7BB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82B9712B-C5E9-4693-9B4F-B8ED49DF7BB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82B9712B-C5E9-4693-9B4F-B8ED49DF7BB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0F6B8B9-CA36-4395-A88E-6205C174225A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0F6B8B9-CA36-4395-A88E-6205C174225A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0F6B8B9-CA36-4395-A88E-6205C174225A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0F6B8B9-CA36-4395-A88E-6205C174225A}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

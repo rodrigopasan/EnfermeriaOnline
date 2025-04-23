@@ -1,0 +1,96 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="Farmacia.UI.SiteMaster" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Farmacia</title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        /* Estilos personalizados */
+        body {
+            background-color: #FFFFFF;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #2C3E50;
+            color: #FFFFFF;
+            padding: 20px;
+            text-align: center;
+        }
+        .user-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px 20px;
+        }
+        .user-info span {
+            font-size: 16px;
+        }
+        .logout-button {
+            background-color: #E74C3C;
+            color: #FFFFFF;
+            border: none;
+            padding: 10px 15px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .menu {
+            background-color: #34495E;
+            padding: 10px;
+            text-align: center;
+        }
+        .menu a {
+            color: #FFFFFF;
+            margin: 0 10px;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+        .menu a:hover {
+            background-color: #2ECC71;
+        }
+        .menu ul ul {
+            background-color: #2C3E50;
+            padding: 10px;
+        }
+        .menu ul ul a {
+            display: block;
+        }
+        .menu ul ul a:hover {
+            background-color: #2ECC71;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header">
+            <h1><b>FARMACIA</b></h1>
+            <div class="user-info">
+                <asp:Label ID="LblUsuario" runat="server" Text=""></asp:Label>
+                <asp:Button ID="LnkLogout" runat="server" Text="Desloguearse" CssClass="logout-button" OnClick="LnkLogout_Click" />
+            </div>
+        </div>
+        <div class="menu">
+            <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal">
+                <Items>
+                    <asp:MenuItem NavigateUrl="~/Pages/HomePage.aspx" Text="Inicio" Value="Inicio"></asp:MenuItem>
+                    <asp:MenuItem Text="Ventas" Value="Ventas">
+                        <asp:MenuItem NavigateUrl="~/Pages/AltaVenta.aspx" Text="Alta Venta"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/Pages/SeguimientoVenta.aspx" Text="Seguimiento de Ventas"></asp:MenuItem>
+                    </asp:MenuItem>
+                    <asp:MenuItem Text="Interactivo" Value="Interactivo">
+                        <asp:MenuItem NavigateUrl="~/Pages/ListadoInteractivoArticulos.aspx" Text="Artículos"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/Pages/ListadoInteractivoClientes.aspx" Text="Clientes"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/Pages/ABMCategorias.aspx" Text="Categorías"></asp:MenuItem>
+                    </asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/Pages/ABMEmpleado.aspx" Text="Empleado" Value="Empleado"></asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/Pages/MisDatos.aspx" Text="Mis Datos" Value="MisDatos"></asp:MenuItem>
+                </Items>
+            </asp:Menu>
+
+
+        </div>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

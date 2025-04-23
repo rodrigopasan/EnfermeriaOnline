@@ -1,0 +1,7 @@
+C:\Users\family\Desktop\Bios\Final\Farmacia\Farmacia.BLL\bin\Debug\Farmacia.BLL.dll
+C:\Users\family\Desktop\Bios\Final\Farmacia\Farmacia.BLL\bin\Debug\Farmacia.BLL.pdb
+C:\Users\family\Desktop\Bios\Final\Farmacia\Farmacia.BLL\bin\Debug\Farmacia.DAL.dll
+C:\Users\family\Desktop\Bios\Final\Farmacia\Farmacia.BLL\bin\Debug\Farmacia.DAL.pdb
+C:\Users\family\Desktop\Bios\Final\Farmacia\Farmacia.BLL\obj\Debug\Farmacia.BLL.csprojResolveAssemblyReference.cache
+C:\Users\family\Desktop\Bios\Final\Farmacia\Farmacia.BLL\obj\Debug\Farmacia.BLL.dll
+C:\Users\family\Desktop\Bios\Final\Farmacia\Farmacia.BLL\obj\Debug\Farmacia.BLL.pdb
